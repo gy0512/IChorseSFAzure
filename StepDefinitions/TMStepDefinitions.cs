@@ -55,12 +55,37 @@ namespace IChorse.StepDefinitions
         [Given(@"I login to the TurnUp")]
         public void GivenILoginToTheTurnUp()
         {
+            //// set switch to differen browsers
+            //string browser = Environment.GetEnvironmentVariable("browser", EnvironmentVariableTarget.Process);
+            //switch (browser)
+            //{
+            //    case "chrome":
+            //        var option = new ChromeOptions();
+            //        option.AddArgument("--window-size=1920,1080");
+            //        option.AddArgument("--headless");
+            //        driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), option);
+
+            //        //driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
+            //        break;
+            //    case "firefox":
+            //        driver = new FirefoxDriver();
+            //        break;
+            //    default:
+            //        var optiondefault = new ChromeOptions();
+            //        optiondefault.AddArgument("--window-size=1920,1080");
+            //        optiondefault.AddArgument("--headless");
+            //        driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), optiondefault);
+
+            //        //driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
+            //        break;
+            //}
+
             // define webdriver
             var option = new ChromeOptions();
             option.AddArgument("--window-size=1920,1080");
             option.AddArgument("--headless");
             driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), option);
-            //driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)); //driver = new ChromeDriver();
+            ////driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)); //driver = new ChromeDriver();
 
             // Object init and define for login page
             SFLoginPage loginObj = new SFLoginPage();

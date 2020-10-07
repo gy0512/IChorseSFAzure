@@ -217,7 +217,6 @@ D:\Software\Microsoft Visual Studio\source\repos\IChorseSFAzure\bin\Debug\netcor
 D:\Software\Microsoft Visual Studio\source\repos\IChorseSFAzure\obj\Debug\netcoreapp3.1\IChorseSFAzure.csprojAssemblyReference.cache
 D:\Software\Microsoft Visual Studio\source\repos\IChorseSFAzure\obj\Debug\netcoreapp3.1\IChorseSFAzure.AssemblyInfoInputs.cache
 D:\Software\Microsoft Visual Studio\source\repos\IChorseSFAzure\obj\Debug\netcoreapp3.1\IChorseSFAzure.AssemblyInfo.cs
-D:\Software\Microsoft Visual Studio\source\repos\IChorseSFAzure\obj\Debug\netcoreapp3.1\IChorseSFAzure.csproj.CoreCompileInputs.cache
 D:\Software\Microsoft Visual Studio\source\repos\IChorseSFAzure\obj\Debug\netcoreapp3.1\IChorseSFAzure.csproj.CopyComplete
 D:\Software\Microsoft Visual Studio\source\repos\IChorseSFAzure\obj\Debug\netcoreapp3.1\IChorseSFAzure.dll
 D:\Software\Microsoft Visual Studio\source\repos\IChorseSFAzure\obj\Debug\netcoreapp3.1\IChorseSFAzure.pdb
